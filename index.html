@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link href="https://fonts.googleapis.com/css?family=Quicksand|Source+Code+Pro&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+		<link rel="stylesheet" href="css/styles.css" type="text/css" />
+		<title>Kikorock Inc</title>
+	</head>
+	<body>
+		<header id="header">
+			<nav id="nav-bar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+				<a class="navbar-brand ml-3" href="#"><img id="header-img" src="https://www.archlinux.org/static/logos/archlinux-logo-white-1200dpi.31b209af152a.png" height="50px" alt="KikoRock Logo"/></a>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active mr-5">
+							<a class="nav-link" href="#header">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item mr-5">
+							<a class="nav-link" href="#about-us">About Us</a>
+						</li>
+						<li class="nav-item mr-5">
+							<a class="nav-link" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<section class="hero-section">
+			<h1>kikorock inc.</h1>
+			<p>we make your dream</p>
+		</section>
+
+		<hr />
+
+		<div id="about-us">
+			<p>About us</p>
+			<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/mN_e5-fcGU4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+
+		<div id="contact">
+			<p>Contact</p>
+			<form id="form">
+				<div class="form-group row">
+					<label for="email" class="col-sm-2 col-form-label">Email:</label>
+					<div class="col-sm-10">
+						<input type="email" class="form-control" id="email" placeholder="Enter your Email" autocomplete="off" required />
+					</div>
+				</div>
+				<button id="submit" type="submit" class="btn btn-lg btn-outline-danger" formaction="https://www.freecodecamp.com/email-submit">Submit</button>
+			</form>
+		</div>
+	</body>
+</html>

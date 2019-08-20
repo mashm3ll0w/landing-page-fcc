@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+}
+
+.hero-section {
+  margin: 7rem auto 3.5rem;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-kerning: auto;
+}
+
+p {
+  font-family: 'Source Code Pro', monospace;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-width:  7px;
+  border-color: grey;
+  width: 5%;
+  margin: 10px auto 80px auto;
+}
