@@ -1,12 +1,23 @@
 body {
   text-align: center;
+  background-color: beige;
 }
 
-.hero-section {
+.content-holder {
+  width: 90%;
+  max-width: 85%;
+  margin: 7rem auto 2rem;
+  background: white;
+  border-radius: 15px;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* .hero-section {
   margin: 7rem auto 3.5rem;
-}
+} */
 
-h1 {
+h1, h2 {
   font-family: 'Quicksand', sans-serif;
   font-weight: bold;
   font-kerning: auto;
@@ -21,6 +32,43 @@ hr {
   border-top-style: dotted;
   border-width:  7px;
   border-color: grey;
-  width: 5%;
-  margin: 10px auto 80px auto;
+  width: 10%;
+  margin: 50px auto 70px auto;
+}
+
+.tiers {
+  margin-top: 4rem;
+}
+
+#contact {
+  margin-top: 4rem;
+}
+
+#contact input[type="email"] {
+  max-width: 400px;
+  width: 100%;
+  padding: 5px;
+  margin: 10px auto;
+  text-align: center;
+}
+
+button, input {
+  margin: 15px;
+}
+
+#about-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  margin: 1.5rem;
+}
+
+@media screen and (max-width: 640px) {
+    nav {
+      max-width: 640px;
+    }
 }

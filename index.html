@@ -9,49 +9,94 @@
 		<link rel="stylesheet" href="css/styles.css" type="text/css" />
 		<title>Kikorock Inc</title>
 	</head>
-	<body>
-		<header id="header">
-			<nav id="nav-bar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-				<a class="navbar-brand ml-3" href="#"><img id="header-img" src="https://www.archlinux.org/static/logos/archlinux-logo-white-1200dpi.31b209af152a.png" height="50px" alt="KikoRock Logo"/></a>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active mr-5">
-							<a class="nav-link" href="#header">Home <span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item mr-5">
-							<a class="nav-link" href="#about-us">About Us</a>
-						</li>
-						<li class="nav-item mr-5">
-							<a class="nav-link" href="#contact">Contact</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</header>
+	<body id="home">
+		<div class="content-holder">
+			<header id="header">
+				<nav id="nav-bar" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+					<a class="navbar-brand ml-3" href="#"><img id="header-img" src="https://www.archlinux.org/static/logos/archlinux-logo-white-1200dpi.31b209af152a.png" height="50px" alt="KikoRock Logo"/></a>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item active mr-5">
+								<a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
+							</li>
+							<li class="nav-item mr-5">
+								<a class="nav-link" href="#about-us">About Us</a>
+							</li>
+							<li class="nav-item mr-5">
+								<a class="nav-link" href="#contact">Contact</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</header>
 
-		<section class="hero-section">
-			<h1>kikorock inc.</h1>
-			<p>we make your dream</p>
-		</section>
+			<section class="hero-section">
+				<h1>kikorock inc.</h1>
+				<p>we make your dream</p>
+			</section>
 
-		<hr />
+			<hr />
 
-		<div id="about-us">
-			<p>About us</p>
-			<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/mN_e5-fcGU4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>
+			<div id="about-us">
+				<h2>About us</h2>
+				<p>The below video speaks on our behalf...</p>
+				<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/mN_e5-fcGU4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
 
-		<div id="contact">
-			<p>Contact</p>
-			<form id="form">
-				<div class="form-group row">
-					<label for="email" class="col-sm-2 col-form-label">Email:</label>
-					<div class="col-sm-10">
-						<input type="email" class="form-control" id="email" placeholder="Enter your Email" autocomplete="off" required />
+			<section class="tiers">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-4">
+							<div class="card">
+								<div class="card-header"><h2>Platinum</h2></div>
+								<div class="card-body">
+									<h2>250$/pa</h2>
+									<p>Platinum Card</p>
+									<p>Premium Support</p>
+									<p>Lifetime Member</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card">
+								<div class="card-header"><h2>Diamond</h2></div>
+								<div class="card-body">
+									<h2>175$/pa</h2>
+									<p>Gold` Card</p>
+									<p>Premium Support</p>
+									<p>Lifetime Member</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-4">
+							<div class="card">
+								<div class="card-header"><h2>Gold</h2></div>
+								<div class="card-body">
+									<h2>100$/pa</h2>
+									<p>Platinum Card</p>
+									<p>Premium Support</p>
+									<p>Lifetime Member</p>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-				<button id="submit" type="submit" class="btn btn-lg btn-outline-danger" formaction="https://www.freecodecamp.com/email-submit">Submit</button>
-			</form>
+			</section>
+
+			<hr>
+
+			<div id="contact">
+				<h2>Contact Us</h2>
+				<p>To get these and much more, reach out to us and we will get your dreams to life!!</p>
+				<form id="form">
+					<input type="email" class="form-control" id="email" placeholder="Enter your Email" autocomplete="off" required />
+					<button id="submit" type="submit" class="btn btn-md btn-outline-danger" formaction="https://www.freecodecamp.com/email-submit">Submit</button>
+				</form>
+			</div>
+
 		</div>
 	</body>
+	<footer>
+		<p><a href="https://www.github.com/mashm3ll0w" target="_blank">Karl</a> | 2019 &copy;</p>
+	</footer>
 </html>
